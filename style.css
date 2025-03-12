@@ -84,8 +84,37 @@ nav i {
   width: 20%;
 }
 
+#leaf {
+  position: absolute;
+  width: 18%;
+  top: 10%;
+  left: 0%;
+  transform: rotate(60deg);
+}
+#leaf2 {
+  position: absolute;
+  width: 10%;
+  top: 70%;
+  left: 80%;
+  transform: rotate(-90deg);
+}
+#leaf3 {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 20%;
+}
+
 .hero h1 {
   font-size: 25vw;
   font-family: Product Sans B;
   color: #fff;
+}
+
+/* hero end */
+
+.two {
+  width: 100%;
+  height: 100vh;
+  background-color: #f8e7d1;
 }
