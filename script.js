@@ -13,7 +13,7 @@ var tl2 = gsap.timeline({
     trigger: ".three",
     //  0% = animated div .. // full screen size 95%
     start: "0% 95%",
-    end: "70% 50%",
+    end: "60% 50%",
     scrub: true,
     markers: true,
   },
@@ -50,7 +50,7 @@ tl.to(
   {
     top: "105%",
     rotate: "-60deg",
-    left: "86%",
+    left: "76%",
   },
   "orange"
 );
@@ -70,7 +70,7 @@ tl2.fromTo(
   ".lemon1",
   {
     rotate: "-90deg",
-    left: "-50%",
+    left: "0",
     top: "115%",
   },
   {
@@ -78,13 +78,13 @@ tl2.fromTo(
     left: "8.5%",
     top: "-3%",
   },
-  "lemon"
+  "co"
 );
 tl2.fromTo(
   ".lemon3",
   {
     rotate: "-90deg",
-    right: "-50%",
+    right: "0",
     top: "115%",
   },
   {
@@ -92,5 +92,58 @@ tl2.fromTo(
     right: "9%",
     top: "-3%",
   },
-  "lemon"
+  "co"
+);
+
+tl2.fromTo(
+  "#cocacola",
+  {
+    rotate: "-0deg",
+    left: "0",
+    top: "115%",
+  },
+  {
+    rotate: "0deg",
+    width: "12%",
+    left: "15%",
+    top: "10%",
+  },
+  "co"
+);
+tl2.fromTo(
+  "#pepsi",
+  {
+    rotate: "90deg",
+    right: "0",
+    top: "115%",
+  },
+  {
+    rotate: "0deg",
+    width: "18%",
+    right: "11%",
+    top: "6%",
+  },
+  "co"
+);
+
+//
+
+tl2.to(
+  "#fanta",
+  {
+    width: "30%",
+    top: "213%",
+    left: "35%",
+  },
+  "co"
+);
+
+tl2.to(
+  "#orange-cut",
+  {
+    width: "20%",
+    top: "205%",
+    left: "40%",
+  },
+  "co"
 );
