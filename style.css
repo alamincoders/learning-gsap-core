@@ -13,6 +13,9 @@
   box-sizing: border-box;
   font-family: Product Sans;
 }
+body {
+  overflow-x: hidden;
+}
 
 #main {
   width: 100%;
